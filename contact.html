@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+
+    <header>
+        <h1>Get in Touch</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <hr>
+
+    <main>
+        <section>
+            <h2>Registration & Contact Form</h2>
+            <p>Please fill out the form below to register or contact us.</p>
+            
+            <form action="https://formspree.io/f/example" method="POST">
+                
+                <div>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+                
+                <br>
+
+                <div>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" placeholder="Create a password" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label>Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <br>
+
+                <div>
+                    <label>Hobbies (Select all that apply):</label><br>
+                    <input type="checkbox" id="coding" name="hobbies" value="coding">
+                    <label for="coding">Coding</label><br>
+                    <input type="checkbox" id="reading" name="hobbies" value="reading">
+                    <label for="reading">Reading</label><br>
+                    <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+                    <label for="gaming">Gaming</label>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="country">Country:</label><br>
+                    <select id="country" name="country">
+                        <option value="nigeria">Nigeria</option>
+                        <option value="ghana">Ghana</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="usa">United States</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="30" placeholder="Type your message here..."></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <button type="submit">Submit Form</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+          <p>&copy; 2026 Made With Discipline By Winner. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
